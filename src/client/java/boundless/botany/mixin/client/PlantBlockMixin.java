@@ -74,7 +74,12 @@ public class PlantBlockMixin {
         || blockBelow == Blocks.COARSE_DIRT
         || blockBelow == Blocks.ROOTED_DIRT
         || blockBelow == Blocks.PALE_MOSS_BLOCK
-        || blockBelow == Blocks.MOSS_BLOCK;
+        || blockBelow == Blocks.MOSS_BLOCK
+        || blockBelow == Blocks.SOUL_SAND
+        || blockBelow == Blocks.SOUL_SOIL
+        || blockBelow == Blocks.CRIMSON_NYLIUM
+        || blockBelow == Blocks.WARPED_NYLIUM
+        || blockBelow == Blocks.MYCELIUM;
   }
 
   @Unique

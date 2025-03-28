@@ -11,7 +11,7 @@ public class ModPlants {
   public static final Set<String> PLANT_NAMES = new HashSet<>();
 
   static {
-    // Add all minecraft vegetation to this set
+    // Overworld vegetation
     addPlant("minecraft:short_grass");
     addPlant("minecraft:tall_grass");
     addPlant("minecraft:fern");
@@ -32,6 +32,25 @@ public class ModPlants {
     addPlant("minecraft:carrots");
     addPlant("minecraft:potatoes");
     addPlant("minecraft:beetroots");
+
+    // Nether vegetation
+    addPlant("minecraft:crimson_fungus");
+    addPlant("minecraft:warped_fungus");
+    addPlant("minecraft:crimson_roots");
+    addPlant("minecraft:warped_roots");
+    addPlant("minecraft:nether_sprouts");
+    addPlant("minecraft:twisting_vines");
+    addPlant("minecraft:weeping_vines");
+
+    // Saplings
+    addPlant("minecraft:oak_sapling");
+    addPlant("minecraft:spruce_sapling");
+    addPlant("minecraft:birch_sapling");
+    addPlant("minecraft:jungle_sapling");
+    addPlant("minecraft:acacia_sapling");
+    addPlant("minecraft:dark_oak_sapling");
+    addPlant("minecraft:mangrove_propagule");
+    addPlant("minecraft:cherry_sapling");
   }
 
   private static void addPlant(String id) {
