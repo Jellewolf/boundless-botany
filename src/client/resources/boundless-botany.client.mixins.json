@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "boundless.botany.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlantBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
