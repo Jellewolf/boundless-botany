@@ -32,6 +32,8 @@ public class ModPlants {
     addPlant("minecraft:carrots");
     addPlant("minecraft:potatoes");
     addPlant("minecraft:beetroots");
+    addPlant("minecraft:pink_petals");
+    addPlant("minecraft:torchflower");
 
     // Nether vegetation
     addPlant("minecraft:crimson_fungus");
