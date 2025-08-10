@@ -40,7 +40,12 @@ public class PlantBlockMixin {
 
         if (blockBelow == Blocks.FARMLAND) {
             // If plantBlock and farmland return true
-            if (plantBlock == Blocks.WHEAT || plantBlock == Blocks.CARROTS || plantBlock == Blocks.POTATOES || plantBlock == Blocks.BEETROOTS) {
+            if (plantBlock == Blocks.WHEAT ||
+                plantBlock == Blocks.CARROTS ||
+                plantBlock == Blocks.POTATOES ||
+                plantBlock == Blocks.BEETROOTS ||
+                plantBlock == Blocks.MELON_STEM ||
+                plantBlock == Blocks.PUMPKIN_STEM) {
                 info.setReturnValue(true);
                 return;
             }

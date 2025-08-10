@@ -41,6 +41,14 @@ public class ModPlants {
     addPlant("minecraft:short_dry_grass");
     addPlant("minecraft:cactus_flower");
     addPlant("minecraft:firefly_bush");
+    addPlant("minecraft:melon_stem");
+    addPlant("minecraft:pumpkin_stem");
+
+    // 2 Tall flowers
+    addPlant("minecraft:rose_bush");
+    addPlant("minecraft:sunflower");
+    addPlant("minecraft:lilac");
+    addPlant("minecraft:peony");
 
     // Nether vegetation
     addPlant("minecraft:crimson_fungus");
