@@ -87,7 +87,17 @@ public class PlantBlockMixin {
     private boolean isValidVanillaPlacementBlock(Block blockBelow, Block plantBlock) {
         return blockBelow == Blocks.DIRT
                 || blockBelow == Blocks.GRASS_BLOCK
-                || blockBelow == Blocks.FARMLAND && plantBlock == Blocks.WHEAT || plantBlock == Blocks.CARROTS || plantBlock == Blocks.POTATOES || plantBlock == Blocks.BEETROOTS
+                || blockBelow == Blocks.FARMLAND &&
+                plantBlock == Blocks.WHEAT ||
+                plantBlock == Blocks.CARROTS ||
+                plantBlock == Blocks.POTATOES ||
+                plantBlock == Blocks.BEETROOTS ||
+                plantBlock == Blocks.PUMPKIN ||
+                plantBlock == Blocks.MELON ||
+                plantBlock == Blocks.PUMPKIN_STEM ||
+                plantBlock == Blocks.MELON_STEM ||
+                plantBlock == Blocks.ATTACHED_PUMPKIN_STEM ||
+                plantBlock == Blocks.ATTACHED_MELON_STEM
                 || blockBelow == Blocks.SAND
                 || blockBelow == Blocks.PODZOL
                 || blockBelow == Blocks.COARSE_DIRT
@@ -98,7 +108,8 @@ public class PlantBlockMixin {
                 || blockBelow == Blocks.SOUL_SOIL
                 || blockBelow == Blocks.CRIMSON_NYLIUM
                 || blockBelow == Blocks.WARPED_NYLIUM
-                || blockBelow == Blocks.MYCELIUM;
+                || blockBelow == Blocks.MYCELIUM
+                || blockBelow == Blocks.WATER && plantBlock == Blocks.LILY_PAD;
     }
 
     @Unique

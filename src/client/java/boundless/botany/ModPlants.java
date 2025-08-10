@@ -34,6 +34,13 @@ public class ModPlants {
     addPlant("minecraft:beetroots");
     addPlant("minecraft:pink_petals");
     addPlant("minecraft:torchflower");
+    addPlant("minecraft:leaf_litter");
+    addPlant("minecraft:wildflowers");
+    addPlant("minecraft:bush");
+    addPlant("minecraft:tall_dry_grass");
+    addPlant("minecraft:short_dry_grass");
+    addPlant("minecraft:cactus_flower");
+    addPlant("minecraft:firefly_bush");
 
     // Nether vegetation
     addPlant("minecraft:crimson_fungus");
